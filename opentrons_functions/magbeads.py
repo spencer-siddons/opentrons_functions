@@ -54,7 +54,7 @@ def remove_supernatant(pipette,
             pipette.air_gap(10)
             pipette.dispense(transfer_vol + 10, waste.top())
             vol_remaining -= transfer_vol
-            	pipette.blow_out()
+            pipette.blow_out()
         # we're done with these tips at this point
         pipette.blow_out()
         if drop_tip:
